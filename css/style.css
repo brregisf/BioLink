@@ -132,6 +132,44 @@ main {
 
 .content-2 i {
     font-size: 50px;
+    margin-right: 3px;
+}
+
+.tecnos {
+    gap: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column
+}
+
+.tecno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecno h3 {
+    border-left: 3px solid var(--cor2);
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.tecno-js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecno-js i {
+    font-size: 42px;
+    margin-right: 3px;
+}
+
+.tecno-js h3 {
+    border-left: 3px solid var(--cor2);
+    line-height: 1.5;
+    padding: 5px;
 }
 
 .sec-03 {
