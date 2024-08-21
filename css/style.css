@@ -74,9 +74,41 @@ main {
     justify-content: space-around;
 }
 
+.media a:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
 .media a:active {
     transform: scale(1.05);
     transition: .2s;
+}
+
+.sobre {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.content-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-desc h2 {
+    max-width: 70%;
+    margin: 4px 0;
+    position: relative;
+    border-bottom: 3px solid var(--cor2);
+}
+
+.paragrafo {
+    margin: 8px 0;
+    text-align: left;
+    width: 70%;
+    font-size: medium;
+    font-weight: 600;
 }
 
 .sec-02 {
@@ -89,12 +121,17 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
 }
 
 .content-2 h2 {
     margin: 4px;
     position: relative;
     border-bottom: 3px solid var(--cor2);
+}
+
+.content-2 i {
+    font-size: 50px;
 }
 
 .sec-03 {
