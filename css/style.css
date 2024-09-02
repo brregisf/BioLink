@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+html {overflow-x: hidden;}
+
 :root {
     --cor1: rgb(0, 0, 223);
     --cor2: rgb(255, 217, 0);
